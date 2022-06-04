@@ -1,0 +1,91 @@
+.homePage{
+    background-color: rgb(109, 109, 2);
+}
+.weapons{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 20px;
+}
+h2{
+    font-family: 'Mukta', sans-serif;
+}
+.card p{
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.card{
+    width: 30%;
+    height: 420px;
+    text-align: center;
+    box-shadow:0 0 5px black;
+    padding: 10px;
+    background-color: #556b2f;
+    border-radius: 10px;
+}
+.weaponImg{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+.btnBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(109, 109, 2);
+    box-shadow:0 0 5px black;
+}
+.learnMore{
+    padding: 5px;
+    font-family: 'Mukta', sans-serif;
+    text-decoration:none;
+    color: #191970;
+    font-weight: 700;
+}
+
+@media screen and (max-width:1800px){
+    .card{
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:1350px){
+    .card{
+        width: 300px;
+        height: 500px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:940px){
+    .weapons{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 300px;
+        height: 400px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    .weaponImg{
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+    }
+}

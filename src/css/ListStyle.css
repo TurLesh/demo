@@ -1,5 +1,5 @@
 :root{
-    --mainColor:olive;
+    --mainColor:#556b2f;
 }
 header{
     background-color: var(--mainColor);
@@ -62,7 +62,7 @@ header{
     }
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:940px){
     html{
         font-size: 18px;
     }

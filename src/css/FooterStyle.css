@@ -30,7 +30,7 @@ hr{
     }
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:940px){
     .copyright p{
         font-size: 13px;
     }
