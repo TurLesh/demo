@@ -1,0 +1,37 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color:black;
+    width: 100%;
+    padding: 0.2cm;
+}
+.line{
+    width: 190px;
+}
+hr{
+    visibility: hidden;
+    border: 1px solid #191970;
+}
+.icon{
+    margin-right: .1cm;
+}
+.copyright p{
+    text-align: center;
+    color:#191970;
+    margin-bottom: .1cm;
+    font-weight: 700;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 15px;
+}
+
+@media screen and (max-width:1350px){
+    hr{
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width:900px){
+    .copyright p{
+        font-size: 13px;
+    }
+}
