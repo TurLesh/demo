@@ -24,14 +24,16 @@ hr{
     font-size: 15px;
 }
 
-@media screen and (max-width:1350px){
+/* (360px-414px) iphone-xr iphone-se iphone-12pro pixel-5 samsung-s8+ */
+@media screen and (max-width:414px){
+    .copyright p{
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+    .line{
+        width: 120px;
+    }
     hr{
         visibility: visible;
-    }
-}
-
-@media screen and (max-width:940px){
-    .copyright p{
-        font-size: 13px;
     }
 }

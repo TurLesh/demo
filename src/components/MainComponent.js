@@ -1,7 +1,7 @@
 import React from 'react'
 import List from './ListComponent'
 import Footer from './FooterComponent'
-import Home from './HomeComponent'
+// import Home from './HomeComponent'
 import About from './AboutComponent'
 import Contact from './ContactComponent'
 import Malyuk from './content/Malyuk'
@@ -18,7 +18,7 @@ function Main(){
             <List/>
 
             <Routes>
-                <Route exact path='/' element={<Home/>}/>
+                {/* <Route exact path='/' element={<Home/>}/> */}
                 <Route path='/about' element={<About/>}/>
                 <Route path='/contact' element={<Contact/>}/>
                 <Route path='/malyuk' element={<Malyuk/>}/>

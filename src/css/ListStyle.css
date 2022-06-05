@@ -6,7 +6,6 @@ header{
 }
 .container{
     width: 95%;
-    /* background-color:#556b2f; */
     margin:0 auto;
     max-width: 1800px;
 }
@@ -16,7 +15,7 @@ header{
     align-items: center;
 }
 .logo{
-    width: 100px;
+    width: 100%;
     padding: 0.2cm;
 }
 .list{
@@ -47,39 +46,85 @@ header{
     margin-left: 0.5cm
 }
 
-@media screen and (max-width:1500px){
+/* nest-hub-max nest-hub */
+@media screen and (max-width:1280px){
+    .not-active-item{
+        font-size: 0.7cm;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .active-item{
+        font-size: 0.7cm;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
     .icon{
-        margin-left: 0.3cm;
+        font-size: 0.7cm !important;
     }
 }
 
-@media screen and (max-width:1350px){
-    html{
-        font-size: 20px;
+/* ipad-air ipad-mini surface-pro7 */
+@media screen and (max-width:912px){
+    .not-active-item{
+        font-size: 0.6cm;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .active-item{
+        font-size: 0.6cm;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .icon{
+        font-size: 0.7cm !important;
+    }
+}
+
+/* surface-duo */
+@media screen and (max-width:540px){
+    .not-active-item{
+        font-size: 0.5cm;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .active-item{
+        font-size: 0.5cm;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .icon{
+        font-size: 0.5cm !important;
+    }
+    .logo{
+        width: 90%;
+    }
+}
+
+/* (360px-414px) iphone-xr iphone-se iphone-12pro pixel-5 samsung-s8+ */
+/* rigt border is not colored on samsung-s20ultra samsung-a51/71 ? (412px) */
+@media screen and (max-width:414px){
+    .logo{
+        width: 80%;
     }
     .container-flex{
         flex-direction: column;
-    }
-}
-
-@media screen and (max-width:940px){
-    html{
-        font-size: 18px;
     }
     .list{
         flex-direction: column;
     }
     .not-active-item{
-        font-size: 0.7cm;
+        font-size: 0.5cm;
         margin-top: 5px;
         margin-bottom: 5px;
     }
     .active-item{
-        font-size: 0.7cm;
+        font-size: 0.5cm;
         margin-top: 5px;
         margin-bottom: 5px;
     }
     .icon{
-        margin-bottom: 5px;
+        font-size: 0.5cm !important;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
