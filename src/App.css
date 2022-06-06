@@ -14,6 +14,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px;
+  text-align: left;
 }
 
 .wrapper h1{
