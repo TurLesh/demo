@@ -5,9 +5,9 @@ import '../components/content/CardData'
 
 export default function CardComponent({item, itemDescription}){
     return(
-        <div>
-        <h2>{item}</h2>
-        <h3>{itemDescription}</h3>
+        <div className='cardWrapper'>
+            <h2>{item}</h2>
+            <h3>{itemDescription}</h3>
         </div>
     ) 
 }

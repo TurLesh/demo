@@ -8,10 +8,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Main/>
-        <div className='wrapper'>
+        {/* <div className='wrapper'>
           <h1>Weapons</h1>
           {CardData.map(weapon => (<CardComponent key={weapon.item} item={weapon.item} itemDescription={weapon.itemDescription}/>))}
-        </div>
+        </div> */}
       </BrowserRouter>    
     </div>
   );
