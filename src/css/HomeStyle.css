@@ -1,4 +1,4 @@
-.homePage{
+/* .homePage{
     background-color: rgb(109, 109, 2);
 }
 .weapons{
@@ -23,7 +23,7 @@ h2{
     width: auto;
     height: 80px;
 } */
-.card{
+/* .card{
     width: 300px;
     text-align: center;
     box-shadow:0 0 5px black;
@@ -54,14 +54,4 @@ h2{
     text-decoration:none;
     color: #191970;
     font-weight: 700;
-}
-
-/* @media screen and (max-width:1280px){
-    .weaponImg{
-        width: 200px;
-        height: 200px;
-    }
-    .weapons{
-        display:flex;
-    }
 } */

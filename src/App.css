@@ -9,3 +9,14 @@
 .App {
   text-align: center;
 }
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.wrapper h1{
+  width: 100%;
+  text-align: center;
+}
