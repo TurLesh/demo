@@ -8,6 +8,7 @@ import Error from './ErrorComponent'
 import Ak47 from './content/Ak47'
 import Aks74u from './content/Aks74u'
 import Home from './HomeComponent'
+import Complaints from './ComplaintsComponent'
 
 
 import {Routes, Route} from 'react-router-dom'
@@ -22,6 +23,7 @@ function Main(){
                 <Route exact path='/' element={<Home/>}/>
                 <Route path='/about' element={<About/>}/>
                 <Route path='/contact' element={<Contact/>}/>
+                <Route path='/complaints' element={<Complaints/>}/>
                 <Route path='/malyuk' element={<Malyuk/>}/>
                 <Route path='/ak47' element={<Ak47/>}/>
                 <Route path='/aks74u' element={<Aks74u/>}/>

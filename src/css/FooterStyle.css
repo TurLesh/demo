@@ -15,7 +15,15 @@ hr{
 .icon{
     margin-right: .1cm;
 }
-.copyright p{
+.adInfo p{
+    text-align: center;
+    color:#191970;
+    margin-bottom: .1cm;
+    font-weight: 700;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 15px;
+}
+.complaintsLink{
     text-align: center;
     color:#191970;
     margin-bottom: .1cm;
@@ -26,7 +34,7 @@ hr{
 
 /* (360px-414px) iphone-xr iphone-se iphone-12pro pixel-5 samsung-s8+ */
 @media screen and (max-width:414px){
-    .copyright p{
+    .adInfo p{
         font-size: 12px;
         margin-bottom: 2px;
     }

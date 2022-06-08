@@ -4,6 +4,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import '../css/FooterStyle.css';
+import { NavLink } from 'react-router-dom';
 
 function Footer(){
     return(
@@ -18,9 +19,9 @@ function Footer(){
                 <div className='line'>
                     <hr/>
                 </div>
-                <div className='copyright'>
+                <div className='adInfo'>
                     <p>Віримо в ЗСУ</p>
-                    <p>All rights reserved &copy;</p>
+                    <NavLink to='/complaints' className='complaintsLink'>Need help?</NavLink>
                 </div>
             </div>
         </footer>               
