@@ -3,6 +3,7 @@
 }
 header{
     background-color: var(--mainColor);
+    box-shadow: 0 2px 20px #556b2f;
 }
 .container{
     width: 95%;
@@ -44,6 +45,15 @@ header{
     font-size: 0.8cm !important;
     margin-right: 0.5cm;
     margin-left: 0.5cm
+}
+.not-active-item:hover{
+    transform: scale(1.05);
+}
+.active-item:hover{
+    transform: scale(1.05);
+}
+.icon:hover{
+    transform: scale(1.05);
 }
 
 /* nest-hub-max nest-hub */

@@ -5,7 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import '../css/ListStyle.css';
 
-function List(){
+const List = () => {
     return(
         <header>
             <div className='container container-flex'>

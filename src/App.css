@@ -20,4 +20,8 @@
 .wrapper h1{
   width: 100%;
   text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 27px;
 }
