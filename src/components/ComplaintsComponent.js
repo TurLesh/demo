@@ -55,6 +55,6 @@ class IssueRegistry {
 
 const registry = new IssueRegistry()
 
-console.log(registry.register('Valera', 'home', 'need help'))
+// console.log(registry.register('Valera', 'home', 'need help'))
 
 export default Complaints;
