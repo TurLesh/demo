@@ -13,45 +13,50 @@ export default[
         item: 'Malyuk',
         itemImg: Malyuk,
         itemDescription: 'Ukrainian bullpup assault rifle',
+        btnLink: '/malyuk',
     },
     {
         item: 'AK-47',
         itemImg: ak47,
         itemDescription: 'Soviet Union assault rifle',
+        btnLink: '/ak47'
     },
     {
         item: 'AKM',
         itemImg: akm,
         itemDescription: 'Soviet Union assault rifle',
+        btnLink: '/akm'
         
     },
     {
         item: 'AK-74',
         itemImg: ak74,
         itemDescription: 'Soviet Union assault rifle',
-        
+        btnLink: '/ak74'        
     },
     {
         item: 'AKS-74u',
         itemImg: aks74u,
         itemDescription: 'Soviet Union assault rifle',
+        btnLink: '/aks74u'
     },
     {
         item: 'APS',
         itemImg: aps,
         itemDescription: 'Soviet Union underwater assault rifle',
+        btnLink: '/aps'
         
     },
     {
         item: 'Samopal vz. 58',
         itemImg: vz58,
         itemDescription: 'Czechoslovakian assault rifle',
-        
+        btnLink: '/vz58'
     },
     {
         item: 'Norinco Type 56',
         itemImg: type56,
         itemDescription: 'Chinese assault rifle',
-        
+        btnLink: '/type56'        
     }
 ]
