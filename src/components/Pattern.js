@@ -1,7 +1,5 @@
 import React from 'react';
-import "./styles.css";
-import { Count } from "./Count";
-import { Width } from "./Width";
+import '../css/ContactStyle.css'
 
 export default class Counter extends React.Component {
   constructor() {
