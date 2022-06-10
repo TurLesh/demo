@@ -1,12 +1,14 @@
 import React from 'react';
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
+import imcontact from '../images/imagecontact.png'
+import '../css/ContactStyle.css'
+import Texfield from '@mui/core';
 
 function Contact(){
     return(
         <React.Fragment>
-            <div>That is Contact page</div>
-            {/* <Link to='/'>Click here for Home</Link>
-            <Link to='/about'>Click here for About</Link> */}
+            <img src={imcontact} alt='imcontact' className='imgcontact'/>
+            <Textfield id="standard-basic" label="Standard" variant="standard" />
         </React.Fragment>        
     )
 }
